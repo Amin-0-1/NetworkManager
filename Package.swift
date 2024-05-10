@@ -17,10 +17,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "NetworkManager",
-            path: "./Sources/NetworkManager.xcframework"
+            url: "https://github.com/Amin-0-1/NetworkManager/releases/download/v0.0.1/NetworkManager.xcframework.zip",
+            checksum: "cda903326a8d653aa300111a32986c06149ca5caaff85b6b1702a2dbae673046"
         ),
-        .testTarget(
-            name: "NetworkManagerTests",
-            dependencies: ["NetworkManager"]),
     ]
 )
