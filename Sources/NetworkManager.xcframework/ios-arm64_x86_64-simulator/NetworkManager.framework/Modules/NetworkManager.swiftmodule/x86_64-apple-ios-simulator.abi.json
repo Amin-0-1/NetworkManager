@@ -1,0 +1,1682 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Encoding",
+        "printedName": "Encoding",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "URLEncoding",
+            "printedName": "URLEncoding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.Encoding.Type) -> NetworkManager.Encoding",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoding",
+                    "printedName": "NetworkManager.Encoding",
+                    "usr": "s:14NetworkManager8EncodingO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.Encoding.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoding",
+                        "printedName": "NetworkManager.Encoding",
+                        "usr": "s:14NetworkManager8EncodingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager8EncodingO11URLEncodingyA2CmF",
+            "mangledName": "$s14NetworkManager8EncodingO11URLEncodingyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "JSONEncoding",
+            "printedName": "JSONEncoding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.Encoding.Type) -> NetworkManager.Encoding",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoding",
+                    "printedName": "NetworkManager.Encoding",
+                    "usr": "s:14NetworkManager8EncodingO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.Encoding.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoding",
+                        "printedName": "NetworkManager.Encoding",
+                        "usr": "s:14NetworkManager8EncodingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager8EncodingO12JSONEncodingyA2CmF",
+            "mangledName": "$s14NetworkManager8EncodingO12JSONEncodingyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "MULTIPARTEncoding",
+            "printedName": "MULTIPARTEncoding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.Encoding.Type) -> NetworkManager.Encoding",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoding",
+                    "printedName": "NetworkManager.Encoding",
+                    "usr": "s:14NetworkManager8EncodingO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.Encoding.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoding",
+                        "printedName": "NetworkManager.Encoding",
+                        "usr": "s:14NetworkManager8EncodingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager8EncodingO17MULTIPARTEncodingyA2CmF",
+            "mangledName": "$s14NetworkManager8EncodingO17MULTIPARTEncodingyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoding",
+                "printedName": "NetworkManager.Encoding",
+                "usr": "s:14NetworkManager8EncodingO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoding",
+                "printedName": "NetworkManager.Encoding",
+                "usr": "s:14NetworkManager8EncodingO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NetworkManager8EncodingO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14NetworkManager8EncodingO2eeoiySbAC_ACtFZ",
+            "moduleName": "NetworkManager",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager8EncodingO9hashValueSivp",
+            "mangledName": "$s14NetworkManager8EncodingO9hashValueSivp",
+            "moduleName": "NetworkManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager8EncodingO9hashValueSivg",
+                "mangledName": "$s14NetworkManager8EncodingO9hashValueSivg",
+                "moduleName": "NetworkManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NetworkManager8EncodingO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14NetworkManager8EncodingO4hash4intoys6HasherVz_tF",
+            "moduleName": "NetworkManager",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14NetworkManager8EncodingO",
+        "mangledName": "$s14NetworkManager8EncodingO",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noInternetConnection",
+            "printedName": "noInternetConnection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.NetworkError.Type) -> NetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "NetworkManager.NetworkError",
+                    "usr": "s:14NetworkManager0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager0A5ErrorO20noInternetConnectionyA2CmF",
+            "mangledName": "$s14NetworkManager0A5ErrorO20noInternetConnectionyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.NetworkError.Type) -> NetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "NetworkManager.NetworkError",
+                    "usr": "s:14NetworkManager0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager0A5ErrorO7timeoutyA2CmF",
+            "mangledName": "$s14NetworkManager0A5ErrorO7timeoutyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.NetworkError.Type) -> (Swift.String?) -> NetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> NetworkManager.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager0A5ErrorO10invalidURLyACSSSgcACmF",
+            "mangledName": "$s14NetworkManager0A5ErrorO10invalidURLyACSSSgcACmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "requestFailed",
+            "printedName": "requestFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.NetworkError.Type) -> NetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "NetworkManager.NetworkError",
+                    "usr": "s:14NetworkManager0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager0A5ErrorO13requestFailedyA2CmF",
+            "mangledName": "$s14NetworkManager0A5ErrorO13requestFailedyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "encodingFailed",
+            "printedName": "encodingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.NetworkError.Type) -> NetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "NetworkManager.NetworkError",
+                    "usr": "s:14NetworkManager0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager0A5ErrorO14encodingFailedyA2CmF",
+            "mangledName": "$s14NetworkManager0A5ErrorO14encodingFailedyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingFailed",
+            "printedName": "decodingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.NetworkError.Type) -> NetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "NetworkManager.NetworkError",
+                    "usr": "s:14NetworkManager0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager0A5ErrorO14decodingFailedyA2CmF",
+            "mangledName": "$s14NetworkManager0A5ErrorO14decodingFailedyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.NetworkError.Type) -> (Foundation.Data) -> NetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Data) -> NetworkManager.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager0A5ErrorO06serverC0yAC10Foundation4DataVcACmF",
+            "mangledName": "$s14NetworkManager0A5ErrorO06serverC0yAC10Foundation4DataVcACmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.NetworkError.Type) -> (Swift.String, Swift.Int) -> NetworkManager.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.Int) -> NetworkManager.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.String, code: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "NetworkManager.NetworkError",
+                        "usr": "s:14NetworkManager0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager0A5ErrorO6customyACSS_SitcACmF",
+            "mangledName": "$s14NetworkManager0A5ErrorO6customyACSS_SitcACmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager0A5ErrorO20localizedDescriptionSSvp",
+            "mangledName": "$s14NetworkManager0A5ErrorO20localizedDescriptionSSvp",
+            "moduleName": "NetworkManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager0A5ErrorO20localizedDescriptionSSvg",
+                "mangledName": "$s14NetworkManager0A5ErrorO20localizedDescriptionSSvg",
+                "moduleName": "NetworkManager",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "NetworkManager.NetworkError",
+                "usr": "s:14NetworkManager0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "NetworkManager.NetworkError",
+                "usr": "s:14NetworkManager0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NetworkManager0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14NetworkManager0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "NetworkManager",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14NetworkManager0A5ErrorO",
+        "mangledName": "$s14NetworkManager0A5ErrorO",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NetworkManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NetworkManager"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIClientProtocol",
+        "printedName": "APIClientProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_1_0, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EndPoint",
+                "printedName": "any NetworkManager.EndPoint",
+                "usr": "s:14NetworkManager8EndPointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NetworkManager17APIClientProtocolP7execute7request7Combine12AnyPublisherVyqd__s5Error_pGAA8EndPoint_p_tSeRd__SERd__lF",
+            "mangledName": "$s14NetworkManager17APIClientProtocolP7execute7request7Combine12AnyPublisherVyqd__s5Error_pGAA8EndPoint_p_tSeRd__SERd__lF",
+            "moduleName": "NetworkManager",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : NetworkManager.APIClientProtocol, τ_1_0 : Swift.Decodable, τ_1_0 : Swift.Encodable>",
+            "sugared_genericSig": "<Self, T where Self : NetworkManager.APIClientProtocol, T : Swift.Decodable, T : Swift.Encodable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EndPoint",
+                "printedName": "any NetworkManager.EndPoint",
+                "usr": "s:14NetworkManager8EndPointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NetworkManager17APIClientProtocolP7execute7request10Foundation4DataVAA8EndPoint_p_tYaKF",
+            "mangledName": "$s14NetworkManager17APIClientProtocolP7execute7request10Foundation4DataVAA8EndPoint_p_tYaKF",
+            "moduleName": "NetworkManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetworkManager.APIClientProtocol>",
+            "sugared_genericSig": "<Self where Self : NetworkManager.APIClientProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14NetworkManager17APIClientProtocolP",
+        "mangledName": "$s14NetworkManager17APIClientProtocolP",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIClient",
+        "printedName": "APIClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIClient",
+                "printedName": "NetworkManager.APIClient",
+                "usr": "s:14NetworkManager9APIClientC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager9APIClientC6sharedACvpZ",
+            "mangledName": "$s14NetworkManager9APIClientC6sharedACvpZ",
+            "moduleName": "NetworkManager",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIClient",
+                    "printedName": "NetworkManager.APIClient",
+                    "usr": "s:14NetworkManager9APIClientC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager9APIClientC6sharedACvgZ",
+                "mangledName": "$s14NetworkManager9APIClientC6sharedACvgZ",
+                "moduleName": "NetworkManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<τ_0_0, any Swift.Error>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EndPoint",
+                "printedName": "any NetworkManager.EndPoint",
+                "usr": "s:14NetworkManager8EndPointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NetworkManager9APIClientC7execute7request7Combine12AnyPublisherVyxs5Error_pGAA8EndPoint_p_tSeRzSERzlF",
+            "mangledName": "$s14NetworkManager9APIClientC7execute7request7Combine12AnyPublisherVyxs5Error_pGAA8EndPoint_p_tSeRzSERzlF",
+            "moduleName": "NetworkManager",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "execute",
+            "printedName": "execute(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EndPoint",
+                "printedName": "any NetworkManager.EndPoint",
+                "usr": "s:14NetworkManager8EndPointP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14NetworkManager9APIClientC7execute7request10Foundation4DataVAA8EndPoint_p_tYaKF",
+            "mangledName": "$s14NetworkManager9APIClientC7execute7request10Foundation4DataVAA8EndPoint_p_tYaKF",
+            "moduleName": "NetworkManager",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14NetworkManager9APIClientC",
+        "mangledName": "$s14NetworkManager9APIClientC",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "APIClientProtocol",
+            "printedName": "APIClientProtocol",
+            "usr": "s:14NetworkManager17APIClientProtocolP",
+            "mangledName": "$s14NetworkManager17APIClientProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EndPoint",
+        "printedName": "EndPoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "base",
+            "printedName": "base",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager8EndPointP4baseSSvp",
+            "mangledName": "$s14NetworkManager8EndPointP4baseSSvp",
+            "moduleName": "NetworkManager",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager8EndPointP4baseSSvg",
+                "mangledName": "$s14NetworkManager8EndPointP4baseSSvg",
+                "moduleName": "NetworkManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetworkManager.EndPoint>",
+                "sugared_genericSig": "<Self where Self : NetworkManager.EndPoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager8EndPointP4pathSSvp",
+            "mangledName": "$s14NetworkManager8EndPointP4pathSSvp",
+            "moduleName": "NetworkManager",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager8EndPointP4pathSSvg",
+                "mangledName": "$s14NetworkManager8EndPointP4pathSSvg",
+                "moduleName": "NetworkManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetworkManager.EndPoint>",
+                "sugared_genericSig": "<Self where Self : NetworkManager.EndPoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "header",
+            "printedName": "header",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager8EndPointP6headerSDyS2SGSgvp",
+            "mangledName": "$s14NetworkManager8EndPointP6headerSDyS2SGSgvp",
+            "moduleName": "NetworkManager",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager8EndPointP6headerSDyS2SGSgvg",
+                "mangledName": "$s14NetworkManager8EndPointP6headerSDyS2SGSgvg",
+                "moduleName": "NetworkManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetworkManager.EndPoint>",
+                "sugared_genericSig": "<Self where Self : NetworkManager.EndPoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager8EndPointP10parametersSDySSypGSgvp",
+            "mangledName": "$s14NetworkManager8EndPointP10parametersSDySSypGSgvp",
+            "moduleName": "NetworkManager",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager8EndPointP10parametersSDySSypGSgvg",
+                "mangledName": "$s14NetworkManager8EndPointP10parametersSDySSypGSgvg",
+                "moduleName": "NetworkManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetworkManager.EndPoint>",
+                "sugared_genericSig": "<Self where Self : NetworkManager.EndPoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethods",
+                "printedName": "NetworkManager.HTTPMethods",
+                "usr": "s:14NetworkManager11HTTPMethodsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager8EndPointP6methodAA11HTTPMethodsOvp",
+            "mangledName": "$s14NetworkManager8EndPointP6methodAA11HTTPMethodsOvp",
+            "moduleName": "NetworkManager",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "NetworkManager.HTTPMethods",
+                    "usr": "s:14NetworkManager11HTTPMethodsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager8EndPointP6methodAA11HTTPMethodsOvg",
+                "mangledName": "$s14NetworkManager8EndPointP6methodAA11HTTPMethodsOvg",
+                "moduleName": "NetworkManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetworkManager.EndPoint>",
+                "sugared_genericSig": "<Self where Self : NetworkManager.EndPoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "encoding",
+            "printedName": "encoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Encoding",
+                "printedName": "NetworkManager.Encoding",
+                "usr": "s:14NetworkManager8EncodingO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager8EndPointP8encodingAA8EncodingOvp",
+            "mangledName": "$s14NetworkManager8EndPointP8encodingAA8EncodingOvp",
+            "moduleName": "NetworkManager",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoding",
+                    "printedName": "NetworkManager.Encoding",
+                    "usr": "s:14NetworkManager8EncodingO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager8EndPointP8encodingAA8EncodingOvg",
+                "mangledName": "$s14NetworkManager8EndPointP8encodingAA8EncodingOvg",
+                "moduleName": "NetworkManager",
+                "genericSig": "<τ_0_0 where τ_0_0 : NetworkManager.EndPoint>",
+                "sugared_genericSig": "<Self where Self : NetworkManager.EndPoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14NetworkManager8EndPointP",
+        "mangledName": "$s14NetworkManager8EndPointP",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethods",
+        "printedName": "HTTPMethods",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.HTTPMethods.Type) -> NetworkManager.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "NetworkManager.HTTPMethods",
+                    "usr": "s:14NetworkManager11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "NetworkManager.HTTPMethods",
+                        "usr": "s:14NetworkManager11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager11HTTPMethodsO4postyA2CmF",
+            "mangledName": "$s14NetworkManager11HTTPMethodsO4postyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.HTTPMethods.Type) -> NetworkManager.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "NetworkManager.HTTPMethods",
+                    "usr": "s:14NetworkManager11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "NetworkManager.HTTPMethods",
+                        "usr": "s:14NetworkManager11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager11HTTPMethodsO3getyA2CmF",
+            "mangledName": "$s14NetworkManager11HTTPMethodsO3getyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.HTTPMethods.Type) -> NetworkManager.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "NetworkManager.HTTPMethods",
+                    "usr": "s:14NetworkManager11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "NetworkManager.HTTPMethods",
+                        "usr": "s:14NetworkManager11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager11HTTPMethodsO6deleteyA2CmF",
+            "mangledName": "$s14NetworkManager11HTTPMethodsO6deleteyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NetworkManager.HTTPMethods.Type) -> NetworkManager.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "NetworkManager.HTTPMethods",
+                    "usr": "s:14NetworkManager11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NetworkManager.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "NetworkManager.HTTPMethods",
+                        "usr": "s:14NetworkManager11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14NetworkManager11HTTPMethodsO3putyA2CmF",
+            "mangledName": "$s14NetworkManager11HTTPMethodsO3putyA2CmF",
+            "moduleName": "NetworkManager"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NetworkManager.HTTPMethods?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "NetworkManager.HTTPMethods",
+                    "usr": "s:14NetworkManager11HTTPMethodsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14NetworkManager11HTTPMethodsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14NetworkManager11HTTPMethodsO8rawValueACSgSS_tcfc",
+            "moduleName": "NetworkManager",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14NetworkManager11HTTPMethodsO8rawValueSSvp",
+            "mangledName": "$s14NetworkManager11HTTPMethodsO8rawValueSSvp",
+            "moduleName": "NetworkManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14NetworkManager11HTTPMethodsO8rawValueSSvg",
+                "mangledName": "$s14NetworkManager11HTTPMethodsO8rawValueSSvg",
+                "moduleName": "NetworkManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14NetworkManager11HTTPMethodsO",
+        "mangledName": "$s14NetworkManager11HTTPMethodsO",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
