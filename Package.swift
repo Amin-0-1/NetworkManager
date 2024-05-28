@@ -19,13 +19,13 @@ let package = Package(
         
         .binaryTarget(
             name: "NetworkManager",
-            url: "https://github.com/Amin-0-1/NetworkManager/releases/download/1.3.6/NetworkManager.xcframework.zip",
-            checksum: "d43ed8142813a2bf7e40f6ae336263fbd57c64542b30ba6abe563c050e39535f"
+            url: "https://github.com/Amin-0-1/NetworkManager/releases/download/1.4.0/RELEASE.xcframework.zip",
+            checksum: "f3ce305f1bd7785eda01af9508f64fb85c85781ff5f030db4b9932cebefeb8c2"
         ),
         .binaryTarget(
             name: "NetworkManager-debug",
-            url: "https://github.com/Amin-0-1/NetworkManager/releases/download/1.3.6/NetworkManager-debug.xcframework.zip",
-            checksum: "60e42a46b2e8016f76192753d86b1cd9873ba82f736adff17ed0a2357ee9a3f6"
+            url: "https://github.com/Amin-0-1/NetworkManager/releases/download/1.4.0/DEBUG.xcframework.zip",
+            checksum: "17711360f4f581467468156f9b97684810dca1906155b0bbf8d6a26bcb24cda0"
         )
     ]
 )
