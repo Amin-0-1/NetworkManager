@@ -15,8 +15,8 @@ let package = Package(
 
         .binaryTarget(
             name: "NetworkManager",
-            url: "https://github.com/Amin-0-1/NetworkManager/releases/download/1.3.3/NetworkManager.xcframework.zip",
-            checksum: "1c85ac0bdfe07d7fad6e1ff8d27486e067ab7d024668e9ca731612b98e469630"
+            url: "https://github.com/Amin-0-1/NetworkManager/releases/download/1.3.4/NetworkManager.xcframework.zip",
+            checksum: "60b60a841d72149374a8d92faeb548fb344badd2b7374ee6ba94da1f18ec95ae"
         ),
     ]
 )
