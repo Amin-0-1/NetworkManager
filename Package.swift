@@ -17,7 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "NetworkManager",
-            path: "Sources/Network"
-        ),
+            path: "Sources/Network",
+            resources: [.process("Resources")]
+        )
     ]
 )
