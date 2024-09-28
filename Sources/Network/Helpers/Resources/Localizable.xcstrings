@@ -1,0 +1,91 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "encodingDataError" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير قادر على ترميز بيانات الطلب."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to encode request data"
+          }
+        }
+      }
+    },
+    "invalidURLError" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرابط الذي قدمته غير صالح %@. يرجى التحقق مرة أخرى من الرابط والمحاولة مرة أخرى، أو الاتصال بالدعم إذا استمرت المشكلة."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid URL provided '%@' . Please double-check the URL and try again, or contact support if the issue persists."
+          }
+        }
+      }
+    },
+    "noInternetConnectionError" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبدو أنك غير متصل بالإنترنت. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It seems you're not connected to the internet. Please check your internet connection and try again."
+          }
+        }
+      }
+    },
+    "serverError" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عذرًا، واجهنا خطأ في استجابة الخادم، يرجى التواصل مع فريق الدعم والمحاولة مرة أخرى لاحقًا."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oops, we've encountered a server response error, please contact with support team and try again later"
+          }
+        }
+      }
+    },
+    "timeoutError" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عذرًا، استغرقت العملية وقتًا أطول من المتوقع. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى. إذا استمرت المشكلة، يرجى الاتصال بالدعم."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorry, the operation took longer than expected. Please check your internet connection and try again. If the issue persists, please contact support."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
