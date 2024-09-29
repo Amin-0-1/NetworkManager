@@ -10,7 +10,7 @@ import Foundation
 
 extension String {
     /// Custom function that takes a key,  bundle and argument then return localized value
-    static func localize(key: String, bundle: Bundle = .networkManager, arguments: any CVarArg...) -> String {
+    static func localize(key: String, bundle: Bundle = .module, arguments: any CVarArg...) -> String {
         let localized = NSLocalizedString(key,tableName: nil,bundle: bundle,comment: "")
         return String(format: localized, arguments: arguments)
     }

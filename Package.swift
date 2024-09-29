@@ -10,15 +10,13 @@ let package = Package(
     products: [
         .library(
             name: "NetworkManager",
-            type: .static,
             targets: ["NetworkManager"]),
 
     ],
     targets: [
         .target(
             name: "NetworkManager",
-            path: "Sources/Network",
-            resources: [.process("Resources")]
+            path: "Sources/Network"
         )
     ]
 )
