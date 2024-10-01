@@ -16,8 +16,8 @@ public protocol ModernConcurrencyAPIProtocol {
 }
 
 public final class APIClient {
-    public var session: URLSession
-    public var request: URLRequest?
+    var session: URLSession
+    var request: URLRequest?
 
     public init(config: URLSessionConfiguration = .default) {
         self.session = URLSession(configuration: config)
