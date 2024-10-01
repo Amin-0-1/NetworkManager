@@ -16,14 +16,14 @@ public protocol ModernConcurrencyAPIProtocol {
 }
 
 public final class APIClient {
-    public var session: URLSession
-    public var request: URLRequest?
+    var session: URLSession
+    var request: URLRequest?
 
     public init(config: URLSessionConfiguration = .default) {
         self.session = URLSession(configuration: config)
     }
 
-    public func handleSuccess(response: Response) throws -> Data {
+    func handleSuccess(response: Response) throws -> Data {
         response.log()
         guard let httpResponse = response.response as? HTTPURLResponse,
             (200..<300).contains(httpResponse.statusCode) else {

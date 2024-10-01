@@ -7,7 +7,7 @@
 
 import Foundation
 // MARK: - RequestLogger
-public extension URLRequest {
+extension URLRequest {
     func log() {
         print("🤝 Request:\nURL: \(self.url?.absoluteString ?? "No URL")")
         print("Method: \(self.httpMethod ?? "No HTTP Method")")
@@ -25,7 +25,7 @@ public extension URLRequest {
 }
 
 // MARK: - ResponseLogger
-public extension Response {
+extension Response {
     func log() {
         if let httpResponse = self.response as? HTTPURLResponse {
             print("✅ Response:\nStatus Code: \(httpResponse.statusCode)")
