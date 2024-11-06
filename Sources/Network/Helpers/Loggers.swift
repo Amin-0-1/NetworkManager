@@ -29,6 +29,7 @@ extension Response {
     func log() {
         if let httpResponse = self.response as? HTTPURLResponse {
             print("✅ Response:\nStatus Code: \(httpResponse.statusCode)")
+            print("URL: \(httpResponse.url?.absoluteString ?? "")")
 
             do {
                 let object = try JSONSerialization.jsonObject(with: self.data,options: [])
