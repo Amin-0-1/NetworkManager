@@ -17,6 +17,8 @@ public enum NetworkError: Error, CustomNSError, LocalizedError{
     case encodingFailed
     /// the request completed successfully but the received error code out of the rage 200..300
     case serverError(Data)
+    /// returns error code in case of non 2xx code
+    case errorCode(Int)
 
     public var errorDescription: String? {
         switch self {

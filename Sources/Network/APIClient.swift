@@ -25,10 +25,14 @@ public final class APIClient {
 
     func handleSuccess(response: Response) throws -> Data {
         response.log()
-        guard let httpResponse = response.response as? HTTPURLResponse,
-            (200..<300).contains(httpResponse.statusCode) else {
+        guard let httpResponse = response.response as? HTTPURLResponse else {
             throw NetworkError.serverError(response.data)
         }
+
+        guard (200..<300).contains(httpResponse.statusCode) else {
+            throw NetworkError.errorCode(httpResponse.statusCode)
+        }
+
         return response.data
     }
     
