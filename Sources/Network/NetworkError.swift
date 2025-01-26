@@ -37,6 +37,9 @@ public enum NetworkError: Error, CustomNSError, LocalizedError{
                 return .localize(key: "encodingDataError")
             case .serverError:
                 return .localize(key: "serverError")
+            case .errorCode(let errorCode):
+                return errorCode.description
+
         }
     }
 }
