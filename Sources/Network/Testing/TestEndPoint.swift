@@ -19,8 +19,7 @@ extension TestEndPoint: EndPoint {
     var path: String {
         switch self {
             case .fetchImages:
-//                "/200/300x"
-                ""
+                "/200/300"
         }
     }
     

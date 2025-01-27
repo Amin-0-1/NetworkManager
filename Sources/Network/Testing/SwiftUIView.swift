@@ -8,13 +8,16 @@
 import SwiftUI
 
 class TestViewModel: ObservableObject {
+    @Published var imageData: Data = .init()
+
+
     @MainActor
     func fetch() async throws {
         do {
             let data = try await APIClient().execute(request: TestEndPoint.fetchImages)
-            print("fetched image data", data)
+            imageData = data
         } catch {
-            print("errorrrr",error.localizedDescription)
+            print(error.localizedDescription)
         }
     }
 }
@@ -25,15 +28,14 @@ struct SwiftUIView: View {
 
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Image(uiImage: UIImage(data: viewModel.imageData) ?? .add)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 250, height: 250)
         }
         
         .task {
-            do {
-                try await viewModel.fetch()
-            } catch {
-                print("errorrrr",error.localizedDescription)
-            }
+            try? await viewModel.fetch()
         }
     }
 }

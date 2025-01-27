@@ -18,9 +18,6 @@
         }
       }
     },
-    "Hello, World!" : {
-
-    },
     "invalidURLError" : {
       "extractionState" : "migrated",
       "localizations" : {

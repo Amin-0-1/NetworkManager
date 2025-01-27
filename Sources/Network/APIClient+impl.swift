@@ -7,7 +7,7 @@ import Foundation
 extension APIClient: ModernConcurrencyAPIProtocol {
     public func execute(request: any EndPoint) async throws -> Data {
         guard let request = request.request else {
-            throw NetworkError.encodingFailed
+            throw NetworkError.invalidURL(request.urlComponents.string)
         }
         self.request = request
         request.log()

@@ -23,9 +23,9 @@ public enum NetworkError: Error, CustomNSError, LocalizedError{
     public var errorDescription: String? {
         switch self {
             case .noInternetConnection(let code):
-                return .localize(key: "noInternetConnectionError", arguments: code)
+                return .localize(key: "noInternetConnectionError", arguments: code.description)
             case .timeout(let code):
-                return .localize(key: "timeoutError", arguments: code)
+                return .localize(key: "timeoutError", arguments: code.description)
             case .invalidURL(let url):
                 var urlString: String = .localize(key: "invalidURLError")
                 if let url {
