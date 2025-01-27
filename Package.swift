@@ -11,12 +11,11 @@ let package = Package(
         .library(
             name: "NetworkManager",
             targets: ["NetworkManager"]),
-
     ],
     targets: [
         .target(
             name: "NetworkManager",
             path: "Sources/Network"
-        )
+        ),
     ]
 )

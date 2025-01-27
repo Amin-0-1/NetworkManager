@@ -8,25 +8,24 @@ import Foundation
 
 public enum NetworkError: Error, CustomNSError, LocalizedError{
     /// when the request fail becaue of the connection
-    case noInternetConnection
+    case noInternetConnection(Int)
     /// when the request takes too large time
-    case timeout
+    case timeout(Int)
     /// in case of bad or unsupported url
     case invalidURL(String?)
     /// the body or params encoding with the request has issues
     case encodingFailed
-    /// the request completed successfully but the received error code out of the rage 200..300
+    /// the request completed successfully but the received not valid response
     case serverError(Data)
-    /// returns error code in case of non 2xx code
+    /// the request completed successfully but the received error code out of the rage 200..300
     case errorCode(Int)
 
     public var errorDescription: String? {
         switch self {
-            case .noInternetConnection:
-                return .localize(key: "noInternetConnectionError")
-            case .timeout:
-                return .localize(key: "timeoutError")
-
+            case .noInternetConnection(let code):
+                return .localize(key: "noInternetConnectionError", arguments: code)
+            case .timeout(let code):
+                return .localize(key: "timeoutError", arguments: code)
             case .invalidURL(let url):
                 var urlString: String = .localize(key: "invalidURLError")
                 if let url {

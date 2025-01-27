@@ -18,6 +18,9 @@
         }
       }
     },
+    "Hello, World!" : {
+
+    },
     "invalidURLError" : {
       "extractionState" : "migrated",
       "localizations" : {
@@ -41,13 +44,13 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "يبدو أنك غير متصل بالإنترنت. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى"
+            "value" : "يبدو أنك غير متصل بالإنترنت. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى (%@)"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "It seems you're not connected to the internet. Please check your internet connection and try again."
+            "value" : "It seems you're not connected to the internet. Please check your internet connection and try again. (%@)"
           }
         }
       }
@@ -75,13 +78,13 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "عذرًا، استغرقت العملية وقتًا أطول من المتوقع. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى. إذا استمرت المشكلة، يرجى الاتصال بالدعم."
+            "value" : "عذرًا، استغرقت العملية وقتًا أطول من المتوقع. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى. إذا استمرت المشكلة، يرجى الاتصال بالدعم. (%@)"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sorry, the operation took longer than expected. Please check your internet connection and try again. If the issue persists, please contact support."
+            "value" : "Sorry, the operation took longer than expected. Please check your internet connection and try again. If the issue persists, please contact support. (%@)"
           }
         }
       }
