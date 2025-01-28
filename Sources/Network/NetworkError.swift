@@ -16,9 +16,9 @@ public enum NetworkError: Error, CustomNSError, LocalizedError{
     /// the body or params encoding with the request has issues
     case encodingFailed
     /// the request completed successfully but the received not valid response
-    case serverError(Data)
+    case serverError(code: Int, data: Data)
     /// the request completed successfully but the received error code out of the rage 200..300
-    case errorCode(Int)
+    case invalidResponse(Data)
 
     public var errorDescription: String? {
         switch self {
@@ -34,10 +34,10 @@ public enum NetworkError: Error, CustomNSError, LocalizedError{
                 return urlString
             case .encodingFailed:
                 return .localize(key: "encodingDataError")
-            case .serverError:
-                return .localize(key: "serverError")
-            case .errorCode(let errorCode):
-                return errorCode.description
+            case .serverError(let code, _):
+                return .localize(key: "serverError", arguments: code.description)
+            case .invalidResponse:
+                return .localize(key: "InvalidResponse")
 
         }
     }

@@ -26,11 +26,14 @@ public final class APIClient {
     func handleSuccess(response: Response) throws -> Data {
         response.log()
         guard let httpResponse = response.response as? HTTPURLResponse else {
-            throw NetworkError.serverError(response.data)
+            throw NetworkError.invalidResponse(response.data)
         }
 
         guard (200..<300).contains(httpResponse.statusCode) else {
-            throw NetworkError.errorCode(httpResponse.statusCode)
+            throw NetworkError.serverError(
+                code: httpResponse.statusCode,
+                data: response.data
+            )
         }
 
         return response.data
@@ -39,7 +42,6 @@ public final class APIClient {
     func handle(error: Error) -> NetworkError {
         let errorCode = Int(error.localizedDescription) ?? -1
         if let urlError = error as? URLError {
-            print(urlError.code)
             switch urlError.code {
                 case .notConnectedToInternet:
                     return NetworkError.noInternetConnection(errorCode)
@@ -53,10 +55,10 @@ public final class APIClient {
             }
         } else if let error = error as? NetworkError {
             switch error {
-                case .errorCode(let code):
-                    return .errorCode(code)
-                case .serverError(let data):
-                    return .serverError(data)
+                case .serverError(code: let code, data: let data):
+                    return .serverError(code: code, data: data)
+                case .invalidResponse(let data):
+                    return .invalidResponse(data)
                 default: return .timeout(errorCode)
             }
 

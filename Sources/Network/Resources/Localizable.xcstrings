@@ -18,6 +18,23 @@
         }
       }
     },
+    "InvalidResponse" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عذرًا، واجهنا خطأ في استجابة الخادم ، يرجى التواصل مع فريق الدعم والمحاولة مرة أخرى لاحقًا."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oops, we've encountered a server response error, please contact with support team and try again later"
+          }
+        }
+      }
+    },
     "invalidURLError" : {
       "extractionState" : "migrated",
       "localizations" : {
@@ -57,14 +74,14 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "عذرًا، واجهنا خطأ في استجابة الخادم، يرجى التواصل مع فريق الدعم والمحاولة مرة أخرى لاحقًا."
+            "state" : "needs_review",
+            "value" : "عذرًا، واجهنا خطأ في استجابة الخادم, كود (%@)، يرجى التواصل مع فريق الدعم والمحاولة مرة أخرى لاحقًا."
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oops, we've encountered a server response error, please contact with support team and try again later"
+            "value" : "Oops, we've encountered a server response error, code %@, please contact with support team and try again later"
           }
         }
       }
